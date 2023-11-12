@@ -26,5 +26,5 @@ Here is everything that I have done / plan to do on the project.
 
 - [ ] Members Only Section
 
-Completed and ongoing tasks are marked with a number of Credensos
-spent working on the entry.
+Completed and ongoing tasks are marked with a number of [Credensos](https://credenso.cafe/credenso.html)
+spent working on the job.
