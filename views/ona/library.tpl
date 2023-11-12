@@ -12,7 +12,7 @@
             <h1>O.N.A. Presentations Library</h1>
         </header>
 
-        <!-- <span class="image main"><img src="{{ url_for('static', filename='images/pic09.jpg') }}" alt="" /></span> -->
+        <!-- <span class="image main"><img src="{{ static_path }}images/pic09.jpg" alt="" /></span> -->
         <span class="image left"><img src="http://the-ona.ca/menu/ts1a.gif" alt="" /></span>
         <h3>Special Benefit to ONA Member Clubs</h3>
         <p>Thanks to the generosity of the London Numismatic Society, the O.N.A. can offer, at no charge, over 50 PowerPoint presentations to O.N.A. member clubs. Each presentation is suitable for a program at a club meeting. Topics include Canadian decimal coins, tokens and paper money, world coins and paper money, and London Ontario items of interest.</p>

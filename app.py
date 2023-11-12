@@ -1,4 +1,4 @@
-from ingredients.bottle import Bottle, route, run, template, view, TEMPLATE_PATH, template, request, response, redirect, static_file
+from ingredients.bottle import Bottle, route, run, template, view, template, request, response, redirect, static_file
 from ingredients.schnorr import tagged_hash
 from ingredients.files import load_dir, make_file
 import os
@@ -14,9 +14,6 @@ members_dir = 'data/members/'
 os.makedirs(members_dir, exist_ok=True)
 
 restricted_paths = ['members']
-
-TEMPLATE_PATH.append(f'potions/auth/views')
-TEMPLATE_PATH.append(f'potions/ona/views')
 
 # This handles all the static files in the given system...
 # Until we get NGINX to take care of it.
@@ -34,13 +31,13 @@ def index(route):
             response.set_cookie('flash', 'Please Log In', secret=salt)
             return redirect(f'{path}login')
 
-    return template(f'ona/{route}.tpl', title="solar", static_path="/static/ona/", flash=None, username=username)
+    return template(f'ona/{route}.tpl', title="ONA", static_path="/static/ona/", flash=None, username=username)
 
 @app.route('/')
 @view('ona/index.tpl')
 def index():
     username = request.get_cookie("account", secret=salt)
-    return dict(title="solar", static_path="/static/ona/", flash=None, username=username)
+    return dict(title="Ontario Numismatic Association", static_path="/static/ona/", flash=None, username=username)
 
 @app.get('/login')
 @view('auth/form.tpl')

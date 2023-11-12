@@ -14,7 +14,7 @@
             <span class="image left"><img src="http://the-ona.ca/menu/ts2a.gif" alt="" /></span>
             <h3>Last Amended August 2017</h3>
             <p>
-            <a class="button large" href="{{ url_for('static', filename='docs/Constitution_and_Bylaws_ONA.pdf') }}">O.N.A. Constitution and By-Laws</a>
+            <a class="button large" href="{{ static_path }}docs/Constitution_and_Bylaws_ONA.pdf">O.N.A. Constitution and By-Laws</a>
             <br>
             <code>August, 2017, Revision to the O.N.A. Constitution and By-laws (16 pages).</code>
             </p>
