@@ -93,7 +93,7 @@
     <!-- Spotlights -->
     <section class="spotlights alt">
         <article>
-            <a href="#" class="image fit"><img src="http://the-ona.ca/images/2022_silver.jpg" alt=""></a>
+            <a href="#" class="image fit"><img src="https://the-ona.ca/images/2022_silver.jpg" alt=""></a>
             <h3>60th Convention Medal</h3>
             <p>Our 60th convention medal design was chosen from designs submitted to the convention committee.</p>
             <p><i>We are honouring one of the founders of the Ontario Numismatic Association, Mr. William English. Sixty years ago, Bill co-founded the ONA and has been an amazing ambassador of numismatics.</i><p>
