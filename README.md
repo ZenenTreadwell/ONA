@@ -7,9 +7,9 @@ for the ONA.
 - [x] Base Design Implemented - 6©
 - [x] Templating Engine Installed - 24©
 - [x] Members Only Pathing - 12©
-- [-] Current Webpage Replicated - 96©
-    - [-] Membership (50% done) - 48©
-    - [-] About (50% done) - 48©
+- [ ] Current Webpage Replicated - 96©
+    - [ ] Membership (50% done) - 48©
+    - [ ] About (50% done) - 48©
     - [ ] Contact
 
 - [ ] Members Only Section
