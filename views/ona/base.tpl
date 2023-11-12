@@ -7,6 +7,7 @@
 % setdefault('title', "Ontario Numismatic Association")
 % setdefault('static_path', '/static/ona/')
 % setdefault('username', None)
+% setdefault('flash', "")
 <html>
 	<head>
         <title>{{ title }}</title>

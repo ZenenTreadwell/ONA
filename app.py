@@ -81,7 +81,7 @@ def login():
 @app.get('/register')
 @view('auth/form.tpl')
 def register():
-    username = request.forms.get('username')
+    username = request.get_cookie("account", secret=salt)
     return dict(title="Register", username=username)
 
 @app.post('/register')
