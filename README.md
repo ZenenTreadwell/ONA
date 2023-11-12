@@ -26,8 +26,10 @@ Here is everything that I have done / plan to do on the project.
     - [ ] Contact
 
 - [ ] Members Only Section
+- [ ] Supplied Updates
+- [ ] Medal Gallery
 
 ---
 
 Completed and ongoing tasks are marked with a number of [Credensos](https://credenso.cafe/credenso.html)
-spent working on the job.
+spent working on the job. Current total: 144©
