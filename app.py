@@ -81,7 +81,8 @@ def login():
 @app.get('/register')
 @view('auth/form.tpl')
 def register():
-    return dict(title="Register")
+    username = request.forms.get('username')
+    return dict(title="Register", username=username)
 
 @app.post('/register')
 def register():
