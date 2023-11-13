@@ -19,12 +19,17 @@ Here is everything that I have done / plan to do on the project.
 - [x] Base Design Implemented - 6©
 - [x] Templating Engine Installed - 24©
 - [x] Members Only Pathing - 12©
+- [x] Secure Deployment over HTTPS - 6©
 - [ ] Current Webpage Replicated - 96©
     - [ ] Membership (~50% done) - 48©
     - [ ] About (~50% done) - 48©
     - [ ] Contact
 
 - [ ] Members Only Section
+- [ ] Supplied Updates
+- [ ] Medal Gallery
+
+---
 
 Completed and ongoing tasks are marked with a number of [Credensos](https://credenso.cafe/credenso.html)
-spent working on the job.
+spent working on the job. Current total: 144©
