@@ -101,7 +101,7 @@ input, select, textarea {
 	body {
 		background: #fff;
 		overflow-x: hidden;
-		background-image: url('/ona/static/images/money2.jpg');
+		background-image: url('/static/ona/images/money2.jpg');
 		background-attachment: fixed;
 		background-blend-mode: overlay;
 		background-size: contain;
