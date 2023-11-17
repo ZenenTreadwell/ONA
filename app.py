@@ -1,7 +1,7 @@
 from ingredients.bottle import Bottle, route, run, template, view, template, request, response, redirect, static_file
 from ingredients.schnorr import tagged_hash
-from ingredients.files import load_dir, make_file
-import os
+from ingredients.files import load, load_dir, make_file
+import os, json
 
 app = Bottle()
 
@@ -13,7 +13,11 @@ salt = "abcd1234"
 members_dir = 'data/members/'
 os.makedirs(members_dir, exist_ok=True)
 
-restricted_paths = ['members']
+restricted_paths = ['members', 'support']
+
+def account_info(username):
+    return load(f'{members_dir}{username}')
+
 
 # This handles all the static files in the given system...
 # Until we get NGINX to take care of it.
@@ -30,6 +34,10 @@ def index(route):
         if username is None:
             response.set_cookie('flash', 'Please Log In', secret=salt)
             return redirect(f'{path}login')
+        else:
+            account = account_info(username)
+            print('account:', account['password_hash'])
+            return template(f'ona/{route}.tpl', title="ONA", static_path="/static/ona/", flash=None, username=username, account=account)
 
     return template(f'ona/{route}.tpl', title="ONA", static_path="/static/ona/", flash=None, username=username)
 
@@ -56,7 +64,7 @@ def check_login():
     members = load_dir(members_dir)
     user = None
     for member in members:
-        member_name = member.metadata.get('name')
+        member_name = member.metadata.get('username')
 
         # If we find a matching name, we check the passwords
         if (member_name == username):
@@ -79,18 +87,28 @@ def login():
     return redirect(path)
 
 @app.get('/register')
-@view('auth/form.tpl')
+@view('auth/register.tpl')
 def register():
     username = request.forms.get('username')
-    return dict(title="Register", username=username)
+    members = load_dir(members_dir)
+
+    member_names = []
+    for member in members:
+        member_names.append(member['username'])
+
+    return dict(title="Register", username=username, member_names=json.dumps(member_names))
 
 @app.post('/register')
 def register():
+    display_name = request.forms.get('full_name')
     username = request.forms.get('username')
     password = request.forms.get('password')
+    member_id = request.forms.get('member_id')
     phash = tagged_hash(salt, password.encode()).hex()
     metadata = {
-        "name": username,
+        "display_name": display_name,
+        "username": username,
+        "member_id": member_id,
         "password_hash": phash
     }
 

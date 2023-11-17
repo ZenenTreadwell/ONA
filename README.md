@@ -25,11 +25,15 @@ Here is everything that I have done / plan to do on the project.
     - [ ] About (~50% done) - 48©
     - [ ] Contact
 
-- [ ] Members Only Section
-- [ ] Supplied Updates
+- [x] Members Only Section - 18©
+    - [x] Update Registration Endpoint - 12©
+    - [x] Other Pages - 6©
+    - [x] Linked Documents - 3©
+
+- [ ] Find A Club
 - [ ] Medal Gallery
 
 ---
 
 Completed and ongoing tasks are marked with a number of [Credensos](https://credenso.cafe/credenso.html)
-spent working on the job. Current total: 144©
+spent working on the job. Current total: 165©
