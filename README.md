@@ -30,10 +30,16 @@ Here is everything that I have done / plan to do on the project.
     - [x] Other Pages - 6©
     - [x] Linked Documents - 3©
 
-- [ ] Find A Club
+- [ ] Find A Club - 24©
 - [ ] Medal Gallery
 
 ---
 
+### Work Log
+
+Nov 25th - Started logging working days
+Nov 26th - Find A Club page - 24©
+Nov 
+
 Completed and ongoing tasks are marked with a number of [Credensos](https://credenso.cafe/credenso.html)
-spent working on the job. Current total: 165©
+spent working on the job. Current total: 177©
