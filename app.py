@@ -76,7 +76,7 @@ def check_login():
 
     if user:
         response.set_cookie("account", user, secret=salt)
-        return redirect(path)
+        return redirect(f'{path}members')
     else:
         response.set_cookie('flash', 'Login Failed', secret=salt)
         return redirect(f'{path}login')

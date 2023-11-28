@@ -19,7 +19,7 @@
             <li><a href="{{ static_path }}docs/table_request_form.pdf">Request for Information Table Space at ONA Convention</a></li>
             <li><a href="{{ static_path }}docs/local_table_request_form.pdf">Request for ONA Information Table Space at Local Club Show</a></li>
             <li><a href="insurance">Member Club Insurance</a></li>
-            <li><a href="#">Member Club ONA Membership Renewal</a></li>
+            <li><a href="onlineRenewal">Member Club ONA Membership Renewal</a></li>
             <li><a href="#">Tips on Running a Coin Club Meeting</a></li>
             <li><a href="#">Tips on Running a Coin Show</a></li>
             <li><a href="#">Help</a></li>
