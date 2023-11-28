@@ -1,5 +1,5 @@
 % rebase('ona/base.tpl')
-% setdefault('static_path', '/static/ona')
+% setdefault('static_path', '/static/ona/')
 <!--
 	Faction by Pixelarity
 	pixelarity.com | hello@pixelarity.com
@@ -16,7 +16,7 @@
             </p>
         </header>
 
-        <span class="image main"><img src="{{ static_path }}images/money2.jpg') }}" alt="" /></span>
+        <span class="image main"><img src="{{ static_path }}images/money2.jpg" alt="" /></span>
             <p>
                 Hello, <b>{{ account.get('display_name') }}</b> ({{ account.get('username') }}), you are member #{{ account.get('member_id') }}.
                 You have successfully logged into the section of the Ontario Numismatic Association's website

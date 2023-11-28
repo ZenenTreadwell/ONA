@@ -382,8 +382,8 @@ Five-coin shows are held each year at the Nikkei National Museum and Cultural Ce
             <p>
                 Contact: Ken Brown<br/>
                 Phone: <a href="tel:3065267733">(306) 526-7733</a><br/>
-                Email: <a href="mailto:info@reginacoinclub.com">info@reginacoinclub.com</a><br/>
-                Website: <a href="https://www.reginacoinclub.com">www.reginacoinclub.com</a><br/>
+                Email: <a href="mailto:info@reginacoinclub.ca">info@reginacoinclub.ca</a><br/>
+                Website: <a href="https://www.reginacoinclub.ca">www.reginacoinclub.ca</a><br/>
             </p>
             <p>Meets THIRD Friday of Jan, Feb, Mar, May, Jun, Sep, Nov, at 7:30 p.m.
 Meeting place is at the Regina Senior Citizens Centre, 2404 Elphinstone St.,
@@ -490,7 +490,10 @@ At the Royal Canadian Numismatic Association Convention, usually during July on 
     padding: 1em;
     border-radius: 0.5em;
     background: #EEEEEE;
+    }
 
+    .clubs p {
+	max-width: 35em;
     }
 
     .hidden {

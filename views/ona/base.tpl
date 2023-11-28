@@ -40,7 +40,7 @@
             <span class="logo">
                 <div class="row aln-top aln-middle">
                     <img class="image logo top" src="{{ static_path }}images/logo.png" alt="">
-                    <a href="/ona/">Ontario Numismatic Association</a>
+                    <a href="/">Ontario Numismatic Association</a>
                 </div>
             </span>
 
