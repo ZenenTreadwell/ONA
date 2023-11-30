@@ -29,6 +29,7 @@ Here is everything that I have done / plan to do on the project.
     - [x] Update Registration Endpoint - 12©
     - [x] Other Pages - 6©
     - [x] Linked Documents - 3©
+    - [ ] Coin Show Tips - 3©
 
 - [ ] Find A Club - 28©
 - [ ] Medal Gallery
@@ -40,6 +41,7 @@ Here is everything that I have done / plan to do on the project.
 Nov 25th - Started logging working days
 Nov 26th - Find A Club page - 24©
 Nov 29th - Reindenting Club information - 4©
+Nov 30th - Adding tips pdf files - 3©
 
 Completed and ongoing tasks are marked with a number of [Credensos](https://credenso.cafe/credenso.html)
-spent working on the job. Current total: 189©
+spent working on the job. Current total: 192©
