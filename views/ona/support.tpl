@@ -22,7 +22,7 @@
             <li><a href="onlineRenewal">Member Club ONA Membership Renewal</a></li>
             <li><a href="{{ static_path }}docs/coin_club_tips.pdf">Tips on Running a Coin Club Meeting</a></li>
             <li><a href="{{ static_path }}docs/coin_show_tips.pdf">Tips on Running a Coin Show</a></li>
-            <li><a href="#">Help</a></li>
+            <li><a href="{{ static_path }}docs/club_support_help.pdf">Help</a></li>
         </ul>
     </section>
 </section>

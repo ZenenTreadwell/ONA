@@ -73,6 +73,7 @@
                         <ul>
                             <li><a href="history">Our History</a></li>
                             <li><a href="executive">Executive Committee</a></li>
+                            <li><a href="directors">Area Directors</a></li>
                             <li><a href="archive">Ontario Numistatist Archive</a></li>
                             <li><a href="constitution">Constitution and By-Laws</a></li>
                             <li><a href="conventionsList">Past Conventions</a></li>

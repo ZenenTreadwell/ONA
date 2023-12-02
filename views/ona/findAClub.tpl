@@ -126,7 +126,7 @@ Annual Coin Show (Cambridge Coin Show) is the SECOND Saturday in March.</p>
             <h3>Brantford Numismatic Society</h3>
             <p>
                 Contact: David Pottruff<br/>
-                Phone: <a href="tel:"></a><br/>
+                Phone: <a href="tel:5197580550">(519) 758-0550</a><br/>
                 Email: <a href="mailto:brantfordcoinclub@gmail.com">brantfordcoinclub@gmail.com</a><br/>
             </p>
             <p>Meets THIRD Sunday of each month (except June, July, August, December) at 7:15 p.m.<br/>
@@ -150,7 +150,7 @@ ROCKWOOD, ON N0B 2K0<br/>
             <p>
                 Contact: Darrell Nutt<br/>
                 Phone: <a href="tel:5192735572">(519) 273-5572</a><br/>
-                Email: <a href="mailto:hamilton@quadro.net">hamilton@quadro.net</a><br/>
+                Email: <a href="mailto:secretary1960.scc@gmail.com">secretary1960.scc@gmail.com</a><br/>
             </p>
             <p>Meets THIRD Wednesday of each month (except July, August) at 7:30 p.m.<br/>
 Meeting place is at Avondale United Church, 194 Avondale Ave.,
@@ -201,9 +201,8 @@ WASAGA BEACH, ON, L9Z 1Z8<br/>
 Meeting place is at the Thornton Public Library, 34 Robert St.,
 THORNTON, ON L0L 2N0</p>
         </div>
-        <h2>Eastern Ontario</h2>
+        <h2>Greater Toronto Area</h2>
         <button onclick="{show(7)}">AREA 7</button>
-        <button onclick="{show(8)}">AREA 8</button>
         <div class="clubs hidden" id="area_7">
             <h3>Toronto Coin Club</h3>
             <p>
@@ -270,6 +269,10 @@ Annual Hobby Show is the SECOND Saturday of May.</p>
 Meeting place is at Etobicoke Civic Centre, 399 The West Mall,
 ETOBICOKE, ON M9C 2Y.</p>
         </div>
+        
+        <h2>Eastern Ontario</h2>
+        <button onclick="{show(8)}">AREA 8</button>
+        <button onclick="{show(9)}">AREA 9</button>
         <div class="clubs hidden" id="area_8">
             <h3>Kingston Numismatic Association</h3>
             <p>
@@ -292,8 +295,6 @@ Meeting place is at 1230 Water St. Rotary Education Centre,
 PETERBOROUGH, ON K9J-6Z5<br/>
 Annual Fall Coin Show is the THIRD Saturday in November. </p>
         </div>
-        <h2>Greater Toronto Area</h2>
-        <button onclick="{show(9)}">AREA 9</button>
         <div class="clubs hidden" id="area_9">
             <h3>Ottawa Numismatic Society</h3>
             <p>

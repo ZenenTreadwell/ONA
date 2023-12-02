@@ -31,7 +31,8 @@ Here is everything that I have done / plan to do on the project.
     - [x] Linked Documents - 3©
     - [ ] Coin Show Tips - 3©
 
-- [ ] Find A Club - 28©
+- [x] Find A Club - 28©
+- [x] Area Directors - 12©
 - [ ] Medal Gallery
 
 ---
@@ -42,6 +43,8 @@ Nov 25th - Started logging working days
 Nov 26th - Find A Club page - 24©
 Nov 29th - Reindenting Club information - 4©
 Nov 30th - Adding tips pdf files - 3©
+Dec 1st - Find A Club changes - 1©
+Dec 2nd - Area Directors - 11©
 
 Completed and ongoing tasks are marked with a number of [Credensos](https://credenso.cafe/credenso.html)
-spent working on the job. Current total: 192©
+spent working on the job. Current total: 204©
