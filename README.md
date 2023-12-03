@@ -47,4 +47,4 @@ Here is everything that I have done / plan to do on the project.
 - Dec 2nd - Area Directors - 11©
 
 Completed and ongoing tasks are marked with a number of [Credensos](https://credenso.cafe/credenso.html)
-spent working on the job. Current total: <a href=https://credenso.cafe/invoice.html?total=204&member=Zen>204©</a>
+spent working on the job. Current total: <a href="https://credenso.cafe/invoice.html?total=204&member=Zen">204©</a>
